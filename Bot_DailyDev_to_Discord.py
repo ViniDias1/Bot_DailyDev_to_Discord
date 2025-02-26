@@ -7,6 +7,7 @@ from selenium.webdriver.chrome.options import Options
 import time
 
 # teste merge dev-test to dev
+# teste merge dev para main 👌
 
 WEBHOOK_URL = "" #SELECIONE A URL DO SEU WEBHOOK
 
