@@ -6,6 +6,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 import time
 
+# teste merge dev-test to dev
+
 WEBHOOK_URL = "" #SELECIONE A URL DO SEU WEBHOOK
 
 def send_message(content):
@@ -14,7 +16,7 @@ def send_message(content):
     if response.status_code == 204:
         print("Mensagem enviada com sucesso!")
     else:
-        print(f"Erro ao enviar: {response.status_code}, {response.text}") # teste 2
+        print(f"Erro ao enviar: {response.status_code}, {response.text}") 
 
 send_message("Olá, este é um teste do Webhook!")
 
