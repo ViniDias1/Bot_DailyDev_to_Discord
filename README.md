@@ -1,6 +1,6 @@
 # Bot_DailyDev_to_Discord
 
-Bot que seleciona alguns posts do site Daily.dev e as envia em uma chat no Discorod utilizando Webhook.
+Bot que seleciona alguns posts do site Daily.dev e as envia em um chat no Discorod utilizando Webhook.
 
 ## Passo a Passo para alterar e testar o scripit
 
