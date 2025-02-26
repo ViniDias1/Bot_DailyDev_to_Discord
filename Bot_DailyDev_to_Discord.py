@@ -11,7 +11,7 @@ WEBHOOK_URL = "" #SELECIONE A URL DO SEU WEBHOOK
 def send_message(content):
     payload = {"content": content}
     response = requests.post(WEBHOOK_URL, json=payload)
-    if response.status_code == 204:
+    if response.status_code == 204: # alterado
         print("Mensagem enviada com sucesso!")
     else:
         print(f"Erro ao enviar: {response.status_code}, {response.text}")
