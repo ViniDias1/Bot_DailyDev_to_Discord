@@ -14,7 +14,7 @@ def send_message(content):
     if response.status_code == 204:
         print("Mensagem enviada com sucesso!")
     else:
-        print(f"Erro ao enviar: {response.status_code}, {response.text}")
+        print(f"Erro ao enviar: {response.status_code}, {response.text}") # teste
 
 send_message("Olá, este é um teste do Webhook!")
 
